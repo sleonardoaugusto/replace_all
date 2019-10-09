@@ -40,8 +40,8 @@ def parse_file(filename, new_filename, to_replace, replace_for):
 
 filename = 'to_modify.txt'
 new_filename = 'modified.txt'
-to_replace = 'my', 'old', 'words'
-replace_for = 'your', 'new', 'text'
+to_replace = 'old_word1', 'old_word2', 'old_word3'
+replace_for = 'new_word1', 'new_word2', 'new_word3'
 
 
 parse_file(filename, new_filename, to_replace, replace_for)
